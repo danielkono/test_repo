@@ -1,8 +1,8 @@
 function FindProxyForURL (url, host) {
   // our local URLs from the domains below example.com don't need a proxy:
-  if (shExpMatch(host, '*.relution.xyz')) {
-    return 'DIRECT';
-  }
+  // if (shExpMatch(host, '*.relution.xyz')) {
+  //  return 'DIRECT';
+  // }
 
   //if (shExpMatch(host, '*.mwaysolutions.com')) {
   //  return 'PROXY 10.21.5.55:8888';
